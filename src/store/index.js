@@ -19,7 +19,7 @@ export default new Vuex.Store({
         const data = await res.json()
         if (data.message === 'ok') {
           localStorage.setItem('leadhit-site-id', `${siteId}`);
-          router.push({ path: '/analytics' })
+          router.push({ path: '/leadhit/analytics' })
         }
       } catch (error) {
         console.error('Ошибка:', error)

@@ -77,7 +77,7 @@ export default ({
       this.redirectToAuthPage();
     },
     redirectToAuthPage() {
-      router.push({ path: '/auth' });
+      router.push({ path: '/leadhit' });
     },
     buildChart() {
 
